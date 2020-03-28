@@ -23,7 +23,6 @@ unemployment
 sex
 smoking
 age
-testing
 heart disease
 lung disease
 hospitals/doctors
