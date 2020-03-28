@@ -19,8 +19,8 @@ https://en.wikipedia.org/wiki/List_of_U.S._states_by_Gini_coefficient
 
 
 ### Todo
-unemployment
-sex
+unemployment  
+sex  
 smoking
 age
 heart disease
