@@ -39,10 +39,17 @@ https://www.cdc.gov/nchs/pressroom/sosmap/flu_pneumonia_mortality/flu_pneumonia.
 Death rate per 100,000 total population  
 https://www.cdc.gov/nchs/pressroom/sosmap/lung_disease_mortality/lung_disease.htm
 
+### Active Physicians (2019)
+https://www.kff.org/other/state-indicator/total-active-physicians/
+
+### Hospitals (2018)
+https://www.kff.org/other/state-indicator/total-hospitals
+
+### Pollution (2019)
+Pollution: Average exposure of the general public to particulate matter of 2.5 microns or less (PM2.5) measured in micrograms per cubic meter (3-year estimate)  
+https://www.americashealthrankings.org/explore/annual/measure/air/state/ALL
+
 ### Todo  
-hospitals/doctors  
-low temperature  
-pollution  
-airport metric (size, num passengers, etc)
+travel/movement metric
 
 Note that some datasets above did not contain data for District of Columbia, this missing data was found via Google searches manually entered.
