@@ -1,4 +1,5 @@
 # Deaths and Infections by State
+NY Times https://github.com/nytimes/covid-19-data.  
 Coronavirus API http://coronavirusapi.com/states.csv
 
 # Predictor Data and Sources
@@ -52,15 +53,6 @@ https://www.kff.org/other/state-indicator/avg-annual-growth-per-capita/?currentT
 ### Pollution (2019)
 Pollution: Average exposure of the general public to particulate matter of 2.5 microns or less (PM2.5) measured in micrograms per cubic meter (3-year estimate)  
 https://www.americashealthrankings.org/explore/annual/measure/air/state/ALL
-
-### Medium and Large Airports
-For each state, number of medium and large airports
-https://en.wikipedia.org/wiki/List_of_the_busiest_airports_in_the_United_States
-
-### Temperature (2019)
-Note that FL was incorrect in the table, but is corrected in the Hottest States paragraph  
-https://worldpopulationreview.com/states/average-temperatures-by-state/  
-District of Columbia temperature computed as the average of Maryland and Virginia
 
 ### Todo  
 travel/movement metric
