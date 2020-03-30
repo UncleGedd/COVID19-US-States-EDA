@@ -70,6 +70,10 @@ https://www.icip.iastate.edu/tables/population/urban-pct-states
 ### Age Groups (2018)
 https://www.kff.org/other/state-indicator/distribution-by-age/
 
+### School Closure Dates
+Schools that haven't closed are marked NaN
+https://www.edweek.org/ew/section/multimedia/map-coronavirus-and-school-closures.html
+
 ### Todo  
 travel/movement metric
 
