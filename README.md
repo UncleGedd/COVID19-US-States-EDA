@@ -12,7 +12,7 @@ https://worldpopulationreview.com/states/
 ### ICU Beds and Age 60+
 https://khn.org/news/as-coronavirus-spreads-widely-millions-of-older-americans-live-in-counties-with-no-icu-beds/
 
-### GDP, 2020 Population, % of USA GDP
+### GDP
 https://worldpopulationreview.com/states/gdp-by-state/
 
 ### Income per capita (2018)
@@ -33,11 +33,11 @@ https://www.kff.org/other/state-indicator/distribution-by-gender/
 https://worldpopulationreview.com/states/smoking-rates-by-state/
 
 ### Influenza and Pneumonia Death Rate (2018)
-Death rate per 100,000 total population    
+Death rate per 100,000 people    
 https://www.cdc.gov/nchs/pressroom/sosmap/flu_pneumonia_mortality/flu_pneumonia.htm
 
 ### Chronic Lower Respiratory Disease Death Rate (2018)
-Death rate per 100,000 total population  
+Death rate per 100,000 people  
 https://www.cdc.gov/nchs/pressroom/sosmap/lung_disease_mortality/lung_disease.htm
 
 ### Active Physicians (2019)
@@ -73,8 +73,5 @@ https://www.kff.org/other/state-indicator/distribution-by-age/
 ### School Closure Dates
 Schools that haven't closed are marked NaN
 https://www.edweek.org/ew/section/multimedia/map-coronavirus-and-school-closures.html
-
-### Todo  
-travel/movement metric
 
 Note that some datasets above did not contain data for District of Columbia, this missing data was found via Google searches manually entered.
