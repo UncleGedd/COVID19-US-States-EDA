@@ -1,0 +1,169 @@
+{
+    "title": "COVID-19 State Data",
+    "subtitle": "Per-state predictors for COVID-19 ",
+    "id": "nightranger77/covid19-state-data",
+    "description": "This dataset is a per-state amalgamation of demographic, public health and other relevant predictors for COVID-19.\n\n# Deaths, Infections and Tests by State\nCoronavirus API http://coronavirusapi.com/states.csv\n\n# Predictor Data and Sources\n### Testing data per state\nhttp://coronavirusapi.com/states.csv\n\n### Population (2020)\nDensity is people per meter squared\nhttps://worldpopulationreview.com/states/\n\n### ICU Beds and Age 60+\nhttps://khn.org/news/as-coronavirus-spreads-widely-millions-of-older-americans-live-in-counties-with-no-icu-beds/\n\n### GDP\nhttps://worldpopulationreview.com/states/gdp-by-state/\n\n### Income per capita (2018)\nhttps://worldpopulationreview.com/states/per-capita-income-by-state/\n\n### Gini\nhttps://en.wikipedia.org/wiki/List_of_U.S._states_by_Gini_coefficient\n\n### Unemployment (2020)\nRates from Feb 2020 and are percentage of labor force  \nhttps://www.bls.gov/web/laus/laumstrk.htm\n\n### Sex (2017) \nRatio is Male / Female  \nhttps://www.kff.org/other/state-indicator/distribution-by-gender/\n\n### Smoking Percentage (2020)\nhttps://worldpopulationreview.com/states/smoking-rates-by-state/\n\n### Influenza and Pneumonia Death Rate (2018)\nDeath rate per 100,000 people    \nhttps://www.cdc.gov/nchs/pressroom/sosmap/flu_pneumonia_mortality/flu_pneumonia.htm\n\n### Chronic Lower Respiratory Disease Death Rate (2018)\nDeath rate per 100,000 people  \nhttps://www.cdc.gov/nchs/pressroom/sosmap/lung_disease_mortality/lung_disease.htm\n\n### Active Physicians (2019)\nhttps://www.kff.org/other/state-indicator/total-active-physicians/\n\n### Hospitals (2018)\nhttps://www.kff.org/other/state-indicator/total-hospitals\n\n### Health spending per capita\nIncludes spending for all health care services and products by state of residence. Hospital spending is included and reflects the total net revenue. Costs such as insurance, administration, research, and construction expenses are not included.  \nhttps://www.kff.org/other/state-indicator/avg-annual-growth-per-capita/\n\n### Pollution (2019)\nPollution: Average exposure of the general public to particulate matter of 2.5 microns or less (PM2.5) measured in micrograms per cubic meter (3-year estimate)  \nhttps://www.americashealthrankings.org/explore/annual/measure/air/state/ALL\n\n### Medium and Large Airports\nFor each state, number of medium and large airports\nhttps://en.wikipedia.org/wiki/List_of_the_busiest_airports_in_the_United_States\n\n### Temperature (2019)\nNote that FL was incorrect in the table, but is corrected in the Hottest States paragraph  \nhttps://worldpopulationreview.com/states/average-temperatures-by-state/  \nDistrict of Columbia temperature computed as the average of Maryland and Virginia\n\n### Urbanization (2010)\nUrbanization as a percentage of the population \nhttps://www.icip.iastate.edu/tables/population/urban-pct-states\n\n### Age Groups (2018)\nhttps://www.kff.org/other/state-indicator/distribution-by-age/\n\n### School Closure Dates\nSchools that haven't closed are marked NaN\nhttps://www.edweek.org/ew/section/multimedia/map-coronavirus-and-school-closures.html\n\nNote that some datasets above did not contain data for District of Columbia, this missing data was found via Google searches manually entered.",
+    "isPrivate": false,
+    "licenses": [
+        {
+            "name": "unknown"
+        }
+    ],
+    "keywords": [
+        "united states",
+        "natural and physical sciences",
+        "environment",
+        "education",
+        "health",
+        "social sciences",
+        "demographics",
+        "computing",
+        "data visualization",
+        "reference",
+        "sensitive subjects",
+        "health insurance",
+        "green living and environmental issues",
+        "air travel",
+        "covid19"
+    ],
+    "collaborators": [],
+    "data": [
+        {
+            "description": "CSV",
+            "name": "COVID19_state.csv",
+            "totalBytes": 8984,
+            "columns": [
+                {
+                    "name": "State",
+                    "description": "Full state name",
+                    "type": "String"
+                },
+                {
+                    "name": "Tested",
+                    "description": "Number of COVID19 tests ",
+                    "type": "Uuid"
+                },
+                {
+                    "name": "Infected",
+                    "description": "Number of COVID19 infections",
+                    "type": "Uuid"
+                },
+                {
+                    "name": "Deaths",
+                    "description": "Number of COVID19 deaths",
+                    "type": "Uuid"
+                },
+                {
+                    "name": "Population",
+                    "description": "Population Estimates",
+                    "type": "Uuid"
+                },
+                {
+                    "name": "Pop Density",
+                    "description": "Density of people per meter squared",
+                    "type": "Uuid"
+                },
+                {
+                    "name": "Gini",
+                    "description": "Gini coefficient for income inequality",
+                    "type": "Uuid"
+                },
+                {
+                    "name": "ICU Beds",
+                    "description": "Number of ICU beds",
+                    "type": "Uuid"
+                },
+                {
+                    "name": "Income",
+                    "description": "Income per capita ($)",
+                    "type": "Uuid"
+                },
+                {
+                    "name": "GDP",
+                    "description": "GDP per capita",
+                    "type": "Uuid"
+                },
+                {
+                    "name": "Unemployment",
+                    "description": "Unemployment as a percentage of the state labor force",
+                    "type": "Uuid"
+                },
+                {
+                    "name": "Sex Ratio",
+                    "description": "Males / Females",
+                    "type": "Uuid"
+                },
+                {
+                    "name": "Smoking Rate",
+                    "description": "Percentage of smokers",
+                    "type": "Uuid"
+                },
+                {
+                    "name": "Flu Deaths",
+                    "description": "Influenza and Pneumonia death rate per 100,000 people",
+                    "type": "Uuid"
+                },
+                {
+                    "name": "Respiratory Deaths",
+                    "description": "Chronic lower respiratory disease rate per 100,000 people",
+                    "type": "Uuid"
+                },
+                {
+                    "name": "Physicians",
+                    "description": "Number of primary and specialty care active physicians",
+                    "type": "Uuid"
+                },
+                {
+                    "name": "Hospitals",
+                    "description": "Number of hospitals",
+                    "type": "Uuid"
+                },
+                {
+                    "name": "Health Spending",
+                    "description": "Spending for all health services ($)",
+                    "type": "Uuid"
+                },
+                {
+                    "name": "Pollution",
+                    "description": "Measurement of the public's exposure to particulate matter",
+                    "type": "Uuid"
+                },
+                {
+                    "name": "Med-Large Airports",
+                    "description": "Number of medium and large airports",
+                    "type": "Uuid"
+                },
+                {
+                    "name": "Temperature",
+                    "description": "Average temperature in 2019",
+                    "type": "Uuid"
+                },
+                {
+                    "name": "Urban",
+                    "description": "Percentage of the population living in an urban environment",
+                    "type": "Uuid"
+                },
+                {
+                    "name": "Age 0-25",
+                    "description": "People ages 0-25",
+                    "type": "Uuid"
+                },
+                {
+                    "name": "Age 26-54",
+                    "description": "People ages 26-54",
+                    "type": "Uuid"
+                },
+                {
+                    "name": "Age 55+",
+                    "description": "People ages 55+",
+                    "type": "Uuid"
+                },
+                {
+                    "name": "School Closure Date",
+                    "description": "Date that schools closed",
+                    "type": "DateTime"
+                }
+            ]
+        }
+    ]
+}
