@@ -13,7 +13,6 @@ states = {
         'DE': 'Delaware',
         'FL': 'Florida',
         'GA': 'Georgia',
-        'GU': 'Guam',
         'HI': 'Hawaii',
         'IA': 'Iowa',
         'ID': 'Idaho',
@@ -43,7 +42,6 @@ states = {
         'OK': 'Oklahoma',
         'OR': 'Oregon',
         'PA': 'Pennsylvania',
-        'PR': 'Puerto Rico',
         'RI': 'Rhode Island',
         'SC': 'South Carolina',
         'SD': 'South Dakota',
@@ -58,9 +56,14 @@ states = {
         'WY': 'Wyoming'
 }
 
-df = pd.read_csv('./prod/COVID19_state.csv')
-df_new = pd.read_csv('http://coronavirusapi.com/states.csv')
-df_new['name,'] = df_new['name,'].apply(lambda r: states[r])
-df_new.columns = ['State', 'Tested', 'Infected', 'Deaths']
-df['Tested'], df['Infected'], df['Deaths'] = df_new['Tested'], df_new['Infected'], df_new['Deaths']
-df.to_csv('./prod/COVID19_state.csv', index=False)
+untracked_territories = ['AS', 'MP', 'VI', 'PR', 'GU']
+df_new = pd.read_csv('https://api.covidtracking.com/v1/states/current.csv')
+df_new['state'] = df_new['state'].apply(lambda r: states[r] if r not in untracked_territories else r)
+df_new = df_new[~df_new['state'].isin(untracked_territories)].reset_index()
+df_new = df_new[['state', 'positive', 'death', 'totalTestResults']]
+df_new.columns = ['State', 'Infected', 'Deaths', 'Tested']
+
+df_prod = pd.read_csv('./prod/COVID19_state.csv')
+df_prod['Tested'], df_prod['Infected'], df_prod['Deaths'] = df_new['Tested'], df_new['Infected'], df_new['Deaths']
+df_prod.to_csv('./prod/COVID19_state.csv', index=False)
+

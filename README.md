@@ -1,6 +1,7 @@
-# Deaths and Infections by State
-Coronavirus API http://coronavirusapi.com/states.csv
-
+# Deaths and Infections by State  
+### The COVID Tracking Project: https://covidtracking.com/data/api
+Used ```positive```, ```death``` and ```totalTestResults``` from the API for, respectively, ```Infected```, ```Deaths``` and ```Tested``` in this dataset.  
+Please read the documentation of the API for more context on those columns
 # Predictor Data and Sources
 ### Testing data per state
 http://coronavirusapi.com/states.csv
