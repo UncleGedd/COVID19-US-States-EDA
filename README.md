@@ -1,4 +1,4 @@
-# Deaths and Infections by State  
+# Deaths, Infections and Tests by State  
 ### The COVID Tracking Project: https://covidtracking.com/data/api
 Used ```positive```, ```death``` and ```totalTestResults``` from the API for, respectively, ```Infected```, ```Deaths``` and ```Tested``` in this dataset.  
 Please read the documentation of the API for more context on those columns
